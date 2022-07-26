@@ -1,2 +1,0 @@
-New-Item -Path HKLM:\SOFTWARE\Policies\ -Name "\Zoom\Zoom Meetings\General"  –Force
-Set-ItemProperty -Path "HKLM:\SOFTWARE\Policies\Zoom\Zoom Meetings\General" -Name "Disable3rdModuleVerify" -Value 1 -Type DWord
